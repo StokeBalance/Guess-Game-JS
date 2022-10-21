@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Play Guess Game</title>
+</head>
+<body>
+    <h3>Start Game</h3>
+    <div class="form">
+        <label for="inputField">Enter a guess:</label>
+        <input type="number" class="inputField" id="inputField" min="1" max="2" required>
+        <input type="submit" value="Submit Guess" class="submitGuess1">
+        <input type="submit" value="Submit Guess" class="submitGuess2" style="display: none;">
+    </div>
+
+    <div class="params">
+        <p class="guesses"></p>
+        <p class="lastResult"></p>
+        <p class="score"></p>
+    </div>
+
+    <button class="goNext" style="display: none;"></button>
+    <button class="resetButton" style="display: none;"></button>
+ 
+    <script src="./script.js"></script>
+
+</body>
+</html>
